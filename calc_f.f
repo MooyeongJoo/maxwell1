@@ -4,7 +4,7 @@
 	  calc_f=c*eta
 	  calc_f=calc_f/(l0+c*t)
 	  calc_f=calc_f+(eta*sigma)/(ee*dt)
-	  calc_f=calc_f*1/(eta/(ee*dt)+1)
+	  calc_f=calc_f/(eta/(ee*dt)+1)
 	  
       return
       end function

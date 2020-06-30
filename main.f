@@ -4,6 +4,7 @@
       integer kount,i
       parameter(tol=1e-5)
       l0=10.
+	  l=10.
       t=0.
       dt=0.001
       sigma=0.001
@@ -26,7 +27,8 @@
       enddo
 
       write(1,*)t,l,sigma,kount
-      l=l0+dl
+      l=l+dl
+	  
       t=t+dt
       enddo
       close(1)
