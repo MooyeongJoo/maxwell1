@@ -7,9 +7,9 @@
       t=0.
       dt=0.001
       sigma=0.001
-      c=3.
-      eta=30.
-      ee=200000000000.
+      c=2.
+      eta=10000.
+      ee=200.
 
 
       open(1,file='output.txt')
